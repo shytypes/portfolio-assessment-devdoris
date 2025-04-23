@@ -7,10 +7,19 @@
       "default",
       {
         "ignore": [
-          "backdrop-filter"
+          "backdrop-filter",
+          "widows",
+          "orphans",
+          "min-height: auto"
         ]
       }
     ],
-    "disown-opener": "off"
+    "disown-opener": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ]
   }
 }
